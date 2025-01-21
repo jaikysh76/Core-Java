@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.SortedMap;
 
 public class Addition_N_Nutural_Number {
     public static void main(String [] args)
