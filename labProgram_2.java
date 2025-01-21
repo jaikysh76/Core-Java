@@ -8,7 +8,7 @@ public class labProgram_2 {
             int b = sc.nextInt();
             System.out.println("Enter your Activity" + "1 --> Addition \t 2 --> Subst \t 3 --> Mult \t 4 --> Divide \t 5 --> modulus" );
             int operator = sc.nextInt();
-            /**
+            /*
              * 1 -> +
              * 2 -> -
              * 3 -> *
