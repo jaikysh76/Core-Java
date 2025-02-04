@@ -29,3 +29,4 @@ public class interSort {
         isNumber(input);
     }
 }
+// time complexity O(n^2)

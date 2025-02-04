@@ -14,7 +14,7 @@ class Pen {
     }
 
 }
-class Student {
+class student {
     String name ;
     int rollNo;
     int mobile;
@@ -25,15 +25,15 @@ class Student {
         System.out.println(this.mobile);
         System.out.println(this.address);
     }
-    Student(String name, int rollNo) {
+    student(String name, int rollNo) {
         this.name= name;
         this.rollNo = rollNo;
     }
-    Student (Student s2) {
+    student(student s2) {
         this.name= s2.name;
         this.rollNo= s2.rollNo;
     }
-    Student () {
+    student() {
 
     }
 }
@@ -53,9 +53,9 @@ public class OPPS {
         pen2.write();
         pen2.printColor();
 
-        Student st = new Student();
+        student st = new student();
 
-        Student s2= new Student(st);
+        student s2= new student(st);
 
 
 
