@@ -9,7 +9,7 @@ public class Example_2 {
         ArrayList<Integer> a= new ArrayList<>();  //uses Integer instead of Int (Autoboxing)
        a.add(6);
        a.add(7);
-        int num = a.get(0); //// Integer → int (unboxing)
+        int num = a.get(0); // Integer → int (unboxing)
         System.out.println(num);
 
 
