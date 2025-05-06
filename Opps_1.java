@@ -6,9 +6,9 @@ class Student {
 
 public class Opps_1 {
     public static void main(String args[]) {
-        Student.school = "JMV";
-        Student s1 = new Student();
-        Student s2 = new Student();
+        StDetails.school = "JMV";
+        StDetails s1 = new StDetails();
+        StDetails s2 = new StDetails();
 
 
         s1.name = "Meena";
